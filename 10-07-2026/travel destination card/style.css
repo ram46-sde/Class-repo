@@ -1,0 +1,58 @@
+.travel_destination_bg_container {
+    height: 100vh;
+    background-image:url("https://sustainabletravel.org/wp-content/uploads/Small-Islands-Header-Image-Web.jpg");
+    background-size: cover;
+    text-align: center;
+}   
+.main_heading{
+    font-family:"Roboto";
+    font-size: 30px;
+    font-weight:bold;
+    color:black;
+}
+.destination_card{
+    background-color:white;
+    margin: auto;
+    border-radius: 10px;
+    padding:10px;
+    height: 480px;
+    width: 400px;
+}
+.taj_mahal_image{
+    height: 200px;
+    width: 300px;
+    border-radius: 10px;
+    margin:10px;
+}
+.heading{
+    font-family:"Roboto";
+    font-size: 20px;
+    font-weight:bold;
+    color:black;
+}
+.paragraph{
+    font-family:"Roboto";
+    font-size: 15px;
+    color:black;
+}
+.button{
+    background-color: #0a192f;
+    color:white;
+    font-family:"Roboto";
+    font-size: 15px;
+    font-weight:bold;
+    padding: 10px;
+    border-radius: 5px;
+    height: 50px;
+    width: 80px;
+    border-width: 0px;
+}
+button:hover{
+    background-color: #3977e4;
+}
+.heading::before {
+    content: "📍 ";
+}
+button::before {
+    content: "👉 ";
+}

@@ -1,0 +1,49 @@
+.admission-bg-container{
+    background-color:aquamarine;
+    text-align:center;
+    padding:10px;
+    margin:10px;
+    height:100vh;
+}
+.main-heading{
+    font-family:"Roboto";
+    font-size:30px;
+    font-weight:bold;
+    color:black;
+}
+.information-card{
+    background-color:white;
+    padding:20px;
+    margin:auto;
+    border-radius:10px;
+    text-align:center;
+    height:40%;
+    width:40%;
+}
+.button{
+    color:black;
+    background-color:turquoise;
+    padding:10px;
+    border-radius:5px;
+    border-width:0px;
+    height:40px;
+    width:90px;
+    font-weight:bold;
+    font-family:"Roboto";
+    font-size:15px;
+}
+.form{
+    margin-bottom:10px;
+}
+.label{
+    font-family:"Roboto";
+    font-size:20px;
+    font-weight:bold;
+    color:black;
+}
+.label2{
+    font-family:"Roboto";
+    font-size:15px;
+    font-style:italic;
+    color:black;
+}
