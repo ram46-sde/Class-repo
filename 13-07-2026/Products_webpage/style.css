@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+.bg-container{
+    background-image: linear-gradient(to bottom, #007bff, #0056b3);
+    height:200vh;
+    padding:20px;
+    text-align:center;
+}
+.heading{
+    font-family: 'Bree Serif';;
+    font-size:34px;
+    margin-top:10px;
+    color:white;
+}
+.product-card{
+    background-color:white;
+    height:600px;
+    width:400px;
+    border-radius:10px;
+    padding:25px;
+    margin:15px;
+    text-align:center;
+}
+.product-img{
+    height:300px;
+    width:300px;
+    border-radius:10px;
+}
+.product-name{
+    font-family: 'Bree Serif';;
+    font-size:24px;
+    margin-top:10px;
+    color:black;
+}
+.price{
+    font-family: "Roboto";
+    font-size:20px;
+    color:red;
+    text-decoration:line-through;
+    margin:5px;
+}
+.offer-price{
+    font-family: "Roboto";
+    font-size:20px;
+    color:green;
+    font-weight:bold;
+    margin:5px;
+}
+.icon{
+    height:50px;
+    width:50px;
+    border-radius:50px;
+}
+.button{
+    background-color:navy;
+    color:white;
+    height:40px;
+    width:80px;
+    border-radius:5px;
+    padding:5px;
+    margin:5px;
+    border-width:0px;
+}
+.product-card:hover{
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
+.button:hover{
+    background-color:greenyellow;
+     box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+}
